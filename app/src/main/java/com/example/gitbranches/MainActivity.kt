@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
     var res = 0
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        val aiko = 2005
         val ahk = 9605
         setContentView(R.layout.activity_main)
         res = a + b
